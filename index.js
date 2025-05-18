@@ -5,7 +5,7 @@ const app = express();
 //configurar aplicação para receber os dados do form
 app.use(express.urlencoded({ extended: true}));
 
-const porta = 2000;
+const porta = 3000;
 const host = '0.0.0.0';
 
 var listaProduto= [];//Lista para armazenar alunos cadastrados
