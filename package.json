@@ -1,0 +1,24 @@
+{
+  "name": "atv2-ppi",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuiMatos2004/atv2-ppi.git"
+  },
+  "author": "Guilherme de Matos Russo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GuiMatos2004/atv2-ppi/issues"
+  },
+  "homepage": "https://github.com/GuiMatos2004/atv2-ppi#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
