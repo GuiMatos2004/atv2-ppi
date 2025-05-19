@@ -1,18 +1,12 @@
 import express from 'express';
 
+
 const app = express();
+//configurar aplicação para receber os dados do form
+app.use(express.urlencoded({ extended: true}));
 
-// configurar aplicação para receber os dados do form
-app.use(express.urlencoded({ extended: true }));
-
-// exemplo de rota
-app.get('/', (req, res) => {
-  res.send('Servidor Express rodando na Vercel!');
-});
-
-// exporta o app como handler padrão para a Vercel
-export default app;
-
+const porta = 3000;
+const host = '0.0.0.0';
 
 var listaProduto= [];//Lista para armazenar alunos cadastrados
 
@@ -226,4 +220,3 @@ app.listen(porta, host, () => {
     console.log(`Servidor iniciado e em execução no endereço http//${host}:${porta}`);
 });
 
-//Iniciando Atividade2PPI
